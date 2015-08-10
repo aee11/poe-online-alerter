@@ -1,15 +1,23 @@
 {
   "name": "poe-online-alerter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "node dist/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aee11/poe-online-alerter"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "poe-online-alerter": "dist/index.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.10.6",
     "node-notifier": "^4.2.3",
     "request": "^2.60.0",
     "yargs": "^3.18.0"

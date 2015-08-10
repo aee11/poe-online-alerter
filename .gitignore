@@ -32,7 +32,3 @@ node_modules
 
 # Generated ES5 code
 dist
-
-#Secrets
-src/config/secrets.dev.js
-src/config/secrets.prod.js
